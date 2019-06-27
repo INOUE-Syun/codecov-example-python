@@ -9,8 +9,8 @@ def test_frown():
     assert awesome.frown() == ":("
 
 
-# def test_poker_face():
-#     assert awesome.poker_face() == ":|"
+def test_poker_face():
+    assert awesome.poker_face() == ":|"
 
 
 def test_japanese_emoji_smile():
