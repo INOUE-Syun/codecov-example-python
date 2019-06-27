@@ -6,3 +6,6 @@ def frown():
 
 def poker_face():
     return ":|"
+
+def japanese_emoji_smile():
+    return "^_^"
