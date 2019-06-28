@@ -1,4 +1,5 @@
 import awesome
+from awesome import hoge
 
 
 def test_smile():
@@ -19,3 +20,7 @@ def test_japanese_emoji_smile():
 
 def test_japanese_emoji_sleep():
     assert awesome.japanese_emoji_sleep() == "-_- zzz"
+
+
+def test_hoge():
+    assert hoge.hoge() == "hoge"
