@@ -1,6 +1,4 @@
 codecov:
-  branch: develop
-  strict_yaml_branch: develop
   notify:
     require_ci_to_pass: yes
 
@@ -10,9 +8,18 @@ coverage:
   range: "70...100"
 
   status:
-    project: yes
-    patch: yes
-    changes: yes
+    project:
+      default:
+        branches:
+          - develop
+    patch:
+      default:
+        branches:
+          - develop
+    changes:
+      default:
+        branches:
+          - develop
 
 parsers:
   gcov:
@@ -23,6 +30,8 @@ parsers:
       macro: no
 
 comment:
+  branches:
+    - develop
   layout: "reach, diff, flags, files"
   behavior: default
   require_changes: false
