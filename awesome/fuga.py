@@ -1,0 +1,3 @@
+def fuga():
+    return "fuga"
+
