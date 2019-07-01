@@ -22,12 +22,12 @@ def test_japanese_emoji_sleep():
     assert awesome.japanese_emoji_sleep() == "-_- zzz"
 
 
-# def test_hoge():
-#     assert hoge.hoge() == "hoge"
+def test_hoge():
+    assert hoge.hoge() == "hoge"
 
 
-# def test_fuga():
-#     assert hoge.fuga() == "fuga"
+def test_fuga():
+    assert hoge.fuga() == "fuga"
 
 
 # def test_piyo():
