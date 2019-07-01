@@ -4,3 +4,7 @@ def hoge():
 
 def fuga():
     return "fuga"
+
+
+def piyo():
+    return "piyo"
