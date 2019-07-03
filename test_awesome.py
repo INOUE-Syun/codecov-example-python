@@ -22,8 +22,8 @@ from awesome import hoge, fuga
 #     assert awesome.japanese_emoji_sleep() == "-_- zzz"
 
 
-def test_hoge():
-    assert hoge.hoge() == "hoge"
+# def test_hoge():
+#     assert hoge.hoge() == "hoge"
 
 
 def test_fuga():
