@@ -30,8 +30,8 @@ from awesome import hoge, fuga
 #     assert hoge.fuga() == "fuga"
 
 
-def test_piyo():
-    assert hoge.piyo() == "piyo"
+# def test_piyo():
+#     assert hoge.piyo() == "piyo"
 
 
 def test_foo():
