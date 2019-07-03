@@ -14,8 +14,8 @@ from awesome import hoge, fuga
 #     assert awesome.poker_face() == ":|"
 
 
-def test_japanese_emoji_smile():
-    assert awesome.japanese_emoji_smile() == "^_^"
+# def test_japanese_emoji_smile():
+#     assert awesome.japanese_emoji_smile() == "^_^"
 
 
 def test_japanese_emoji_sleep():
