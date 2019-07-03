@@ -11,9 +11,7 @@ coverage:
     project:
       default:
         target: 70%
-      reduce:
-        threshold: 1%
-    patch: no
+    patch: yes
     changes: no
 
 parsers:
