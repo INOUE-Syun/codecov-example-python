@@ -40,11 +40,6 @@ jobs:
       # https://pytest.org
       # https://nose.readthedocs.io
       - run:
-          name: run tests
+          name: run tests & upload coverage
           command: |
-            pipenv run pytest --cov=./awesome
-
-      - run:
-          name: send report
-          command: |
-            pipenv run codecov
+            pipenv run tox
