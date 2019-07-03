@@ -2,8 +2,8 @@ import awesome
 from awesome import hoge, fuga
 
 
-def test_smile():
-    assert awesome.smile() == ":)"
+# def test_smile():
+#     assert awesome.smile() == ":)"
 
 
 def test_frown():
