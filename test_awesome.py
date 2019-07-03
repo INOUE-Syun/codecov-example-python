@@ -30,9 +30,21 @@ def test_fuga():
     assert hoge.fuga() == "fuga"
 
 
-# def test_piyo():
-#     assert hoge.piyo() == "piyo"
+def test_piyo():
+    assert hoge.piyo() == "piyo"
 
 
-# def test_fugafuga():
-#     assert fuga.fuga() == "fuga"
+def test_foo():
+    assert hoge.foo() == "foo"
+
+
+def test_bar():
+    assert hoge.bar() == "bar"
+
+
+def test_baz():
+    assert hoge.baz() == "baz"
+
+
+def test_fugafuga():
+    assert fuga.fuga() == "fuga"
