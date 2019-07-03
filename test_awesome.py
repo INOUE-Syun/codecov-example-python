@@ -26,8 +26,8 @@ from awesome import hoge, fuga
 #     assert hoge.hoge() == "hoge"
 
 
-def test_fuga():
-    assert hoge.fuga() == "fuga"
+# def test_fuga():
+#     assert hoge.fuga() == "fuga"
 
 
 def test_piyo():
